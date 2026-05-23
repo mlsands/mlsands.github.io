@@ -1,0 +1,12 @@
+title: Melissa Sands
+description: Academic website of Melissa Sands
+url: ""
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Exclude from build
+exclude:
+  - README.md

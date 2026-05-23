@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<div class="page-content">
+    <h2>Published</h2>
+    {% for paper in site.data.published %}
+    <div class="paper">
+        <div class="citation">{{ paper.citation }}</div>
+        {% if paper.links %}
+        <div class="links">
+            {% for link in paper.links %}<a href="{{ link.url }}">{{ link.text }}</a>{% unless forloop.last %} &middot; {% endunless %}{% endfor %}
+        </div>
+        {% endif %}
+        {% if paper.notes %}
+        {% for note in paper.notes %}
+        <div class="note">{{ note.html }}</div>
+        {% endfor %}
+        {% endif %}
+    </div>
+    {% endfor %}
+</div>

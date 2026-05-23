@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page.title and page.title != site.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="site-name"><a href="{{ '/' | relative_url }}">Melissa Sands</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="{{ '/publications' | relative_url }}"{% if page.nav == 'publications' %} class="active"{% endif %}>Publications</a></li>
+                    <li><a href="{{ '/ongoing' | relative_url }}"{% if page.nav == 'ongoing' %} class="active"{% endif %}>Ongoing Work</a></li>
+                    <li><a href="{{ '/teaching' | relative_url }}"{% if page.nav == 'teaching' %} class="active"{% endif %}>Teaching</a></li>
+                    <li><a href="{{ '/advising' | relative_url }}"{% if page.nav == 'advising' %} class="active"{% endif %}>Advising</a></li>
+                    <li><a href="{{ '/media' | relative_url }}"{% if page.nav == 'media' %} class="active"{% endif %}>Media</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            {{ content }}
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <span>&copy; {{ site.time | date: '%Y' }} Melissa Sands</span>
+        </div>
+    </footer>
+</body>
+</html>

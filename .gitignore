@@ -1,0 +1,20 @@
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+vendor/
+.bundle/
+Gemfile.lock
+
+# Claude Code
+.claude/
+claude-*-cwd
+
+# Windows
+desktop.ini
+Thumbs.db
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
