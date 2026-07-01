@@ -11,19 +11,19 @@ permalink: /teaching
 
 ## Current Teaching
 
-LSE GV330: Data Science Applications to Politics Research (undergraduate)
-
-LSE GV4L3: Data Science Applications in Politics Research (MSc)
-
-LSE GV101: Introduction to Political Science (undergraduate)
-
-I am Programme Director / Convener for the [BSc Politics and Data Science](https://www.lse.ac.uk/study-at-lse/Undergraduate/degree-programmes-2024/BSc-Politics-and-Data-Science) at LSE. Feel free to get in touch with questions about this programme. Admissions and application-related questions should be directed towards the [Admissions team](https://www.lse.ac.uk/study-at-lse/Undergraduate/Applicants/Secure/Contact-UG-Admissions).
+GOVT 6019: Introduction to Probability and Applied Statistics (PhD, Fall 2026)
 
 </div>
 
 <div markdown="1">
 
 ## Past Teaching
+
+LSE GV330: Data Science Applications to Politics Research (undergraduate)
+
+LSE GV4L3: Data Science Applications in Politics Research (MSc)
+
+LSE GV101: Introduction to Political Science (undergraduate)
 
 LSE GV481: Quantitative Analysis for Political Science (MSc)
 
